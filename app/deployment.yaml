@@ -39,8 +39,6 @@ spec:
           protocol: TCP
         - containerPort: 8443
           protocol: TCP
-        - containerPort: 8778
-          protocol: TCP
         readinessProbe:
           failureThreshold: 3
           httpGet:
