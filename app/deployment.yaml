@@ -11,6 +11,8 @@ metadata:
     app.openshift.io/runtime: java
   name: spring-petclinic
 spec:
+  source:
+    repoURL: https://github.com/redhat-developer/openshift-gitops-getting-started
   replicas: 1
   selector:
     matchLabels:
